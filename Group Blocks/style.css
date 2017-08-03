@@ -1,0 +1,67 @@
+body {
+    background: black;
+    background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white); /* Standard syntax */
+}
+#wrapper {
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+#box2 {
+    height: 25%;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+}
+#box3 {
+    height: 40%;
+}
+#box4 {
+    height: 60%;
+    margin-bottom: 20px;
+}
+#box5{
+    height: 5%;
+}
+#title1 {
+    width: 50%;
+    height: 5%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#title2 {
+    width: 40%;
+    height: 5%;
+    margin-bottom: 20px;
+}
+#sixbox {
+    height: 5%;
+    margin-bottom: 20px;
+}
+.smallbox {
+    width: 11%;
+    height: 5%;
+    display:inline;
+}
+#left {
+    width: 25%;
+    float: left;
+}
+#right {
+    width: 70%;
+    float: right;
+}
+.purple {
+    border: 2px solid purple;
+}
+.green {
+    border: 2px solid green;
+}
+.red {
+    border: 2px solid red;
+}

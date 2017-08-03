@@ -1,0 +1,108 @@
+#wrapper {
+    width: 970px;
+    margin: 0px auto;
+}
+#main_content {
+    background: #6f5964; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#6f5964, #6f5964, #2e1c22); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#6f5964,#6f5964, #2e1c22); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(#6f5964, #6f5964, #2e1c22); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#6f5964, #6f5964, #2e1c22); /* Standard syntax */
+    padding: 3%;
+}
+.title {
+    background: #8c8a97; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(lightgray, #8c8a97, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgray, #8c8a97, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgray, #8c8a97, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightgray, #8c8a97, lightgray); /* Standard syntax */
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+header {
+    background-color: white;
+    position: relative;
+    height: 70px;
+}
+h1, h2 {
+    position: absolute;
+}
+h1 {
+    left: 0;
+}
+h2 {
+    right: 0;
+}
+img{
+    width: 100%;
+}
+#portfolio_img {
+    width: 40%;
+    height: 250px;
+    display: inline-block;
+    margin-right: 4%;
+    margin-bottom: 25px;
+}
+#portfolio_img img{
+    border: 5px solid gray;
+}
+#about_me {
+    width: 55%;
+    height: 250px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+#la_mode, #family_contacts, #five_eleven {
+    width: 31.5%;
+    height: 600px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    overflow: wrap;
+}
+#la_mode, #family_contacts {
+    margin-right: 2%;
+}
+.technologies img {
+    height: 50px;
+    width: 50px;
+}
+.technologies p {
+    text-align: center;
+}
+td.tcontent {
+    height: 370px;
+    vertical-align: top;
+    overflow: wrap;
+}
+table, tr, td {
+    border-collapse: collapse;
+}
+thead td {
+    padding: 7px;
+}
+td {
+    padding: 3px;
+}
+button {
+    border: none;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    display: block;
+    margin: 10px auto;
+}
+#footer {
+    text-align: center;
+}
+#footer img {
+    width: 20px;
+    height: 20px;
+}
+#footer li {
+    display: inline;
+}

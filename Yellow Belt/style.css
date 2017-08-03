@@ -1,0 +1,166 @@
+.grey {
+    color: grey;
+}
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+    color: white;
+    background: -webkit-linear-gradient(left, #4b655c, #273333);
+    background: -moz-linear-gradient(left, #4b655c, #273333);
+    background: -o-linear-gradient(left, #4b655c, #273333);
+    background: linear-gradient(to right, #4b655c, #273333);
+}
+#gradient_wrapper {
+    background-color: #1f3037;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+}
+header {
+    height: 70px;
+    position: relative;
+    background-color: #1f3037;
+}
+    header h1 {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    header img {
+        position: absolute;
+        right: 20px;
+        top: 21px;
+        border: 2px solid grey;
+    }
+nav {
+    height: auto;
+}
+    nav img {
+        width: 100%;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        margin: 0;
+    }
+    nav ul {
+        padding: 0;
+        margin: 0;
+        background: -webkit-linear-gradient(#384b52, #1f3037, #384b52);
+        background: -moz-linear-gradient(#384b52, #1f3037, #384b52);
+        background: -o-linear-gradient(#384b52, #1f3037, #384b52);
+        background: linear-gradient(#384b52, #1f3037, #384b52);
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: auto;
+        display: inline-block;
+        color: grey;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-right: 1px solid grey;
+    }
+aside {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+    aside p {
+        margin: 0;
+    }
+    #search_container {
+        margin-bottom: 20px;
+    }
+        #search_container input {
+            display: inline-block;
+            vertical-align: top;
+        }
+        #search_container img {
+            display: inline-block;
+            width: 20px;
+            height: auto;
+            margin: 0;
+        }
+    aside a {
+        color: #90da89;
+        text-decoration: none;
+    }
+    aside section {
+        border: 1px solid grey;
+        margin-bottom: 20px;
+        padding-bottom: 10px
+    }
+        aside section p, aside a {
+            padding: 10px 10px;
+        }
+    aside img {
+        width: 100%;
+        border: 1px solid grey;
+        margin: 20px 0;
+    }
+    aside h2 {
+        font-size: 14pt;
+        padding: 5px;
+        margin: 0;
+        border-bottom: 1px solid grey;
+        background: linear-gradient(#384b52, #1f3037, #384b52);
+    }
+    .gradient {
+        background: linear-gradient(#14262a,#365651);
+        overflow: scroll;
+        height: 150px;
+        border: 1px solid grey;
+        padding: 0 10px;
+    }
+main {
+    width: 65%;
+    height: 800px;
+    display: inline-block;
+    background: linear-gradient(#273c3f,#365651);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+}
+    main a {
+        color: #c7d57b;
+        text-decoration: none;
+    }
+    main article {
+        width: 65%;
+        display: inline-block;
+        margin-right: 10px;
+    }
+        main article h3 {
+            margin-bottom: 0;
+        }
+        main article p {
+            margin-top: 0;
+        }
+        main article div {
+            border: 1px double grey;
+            padding: 1px;
+        }
+    main aside {
+        padding: 0;
+        width: 30%;
+        margin-top: 50px;
+    }   
+        main aside img {
+            width: 90%;
+            height: auto;
+            margin: 20px 5% 40px 5%;
+            border: 1px solid white;
+        }
+        .notes_box h4 {
+            border: 1px solid grey;
+            width: fit-content;
+            margin-top: -15px;
+            margin-left: 20px;
+            margin-bottom: 0;
+            padding: 5px;
+            text-align: center;
+            background-color: #365651;
+        }

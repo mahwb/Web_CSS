@@ -1,0 +1,45 @@
+main {
+    width: 1100px;
+    margin: 0 auto;
+}
+.row div, .row p {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -3px;
+}
+.column {
+    display: inline-block;
+    margin: 1px;
+    margin-right: -5px;
+}
+.box {
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 1px;
+    margin-left: 0;
+    padding: 15px 0;
+}
+.title {
+    border: 1px solid white;
+    color: red;
+}
+#mid {
+    margin-bottom: 20px;
+}
+.bottom p {
+    width: 156px;
+    text-align: center;
+}
+.blue .box {
+    background-color: lightblue;
+}
+.red .box {
+    background-color: pink;
+}
+.yellow .box {
+    background-color: lightyellow;
+}
+.green .box {
+    background-color: lightgreen;
+}

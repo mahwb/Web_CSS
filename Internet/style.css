@@ -1,0 +1,194 @@
+/*reset code*/
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+.blue {
+    color: #4279a7;
+}
+.red {
+    color: red;
+}
+.lightblue {
+    color: #23c5e0;
+}
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+}
+header {
+    position: relative;
+    height: 150px;
+}
+    header h1{
+        font-size: 50px;
+        padding-top: 20px;
+        padding-left: 95px;
+    }
+    header h2 {
+        font-size: 30px;
+        color: white;
+        background-color: #4279a7;
+        padding: 10px 15px;
+    }
+    header img {
+        position: absolute;
+        left: 0;
+        width: 95px;
+        height: 95px;
+        z-index: 20;
+    }
+aside {
+    width: 260px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+}
+    aside h2 {
+        font-size: 12pt;
+    }
+    aside button {
+        border-radius: 5px;
+        color: white;
+        background-color: #4279a7;
+        display: block;
+        width: 90%;
+        padding: 5px;
+        margin: 2px auto;
+        font-weight: normal;
+    }
+    aside button.button_orange {
+        background-color: orange;
+    }
+        #top_info {
+            padding-bottom: 20px;
+            border-bottom: 1px solid grey;
+        }
+            #top_info p {
+                margin-bottom: 20px;
+            }
+        #ad {
+            display: block;
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px 5px;
+            background-image: url("./images/ad_background.png");
+            background-size: 100% 100%;
+        }
+            #ad p {
+                color: white;
+                font-size: 20pt;
+                font-weight: normal;
+                text-align: center;
+            }
+            #ad img {
+                display: block;
+                margin: 10px auto;
+                height: 50%;
+                width: 50%;
+            }
+            #ad button {
+                display: block;
+                margin: 0 auto;
+            }
+            #ad button.button_lightblue {
+                background-color: #23c5e0;
+            }
+main {
+    width: 680px;
+    display: inline-block;
+    vertical-align: top;
+}
+    #top {
+        height: 70px;
+        position: relative;
+        border-bottom: 1px solid gray;
+    }
+        .home_img {
+            position: absolute;
+            left: 0;
+            width: 15px;
+            height: 15px;
+        }
+        #top a{
+            position: absolute;
+            left: 20px;
+            font-size: 12pt;
+            font-weight: normal;
+            text-decoration:none;
+            color: #4279a7;
+        }
+        #information {
+            position: absolute;
+            right: 0;
+            width: 220px;
+            text-align: right;
+            font-size: 8pt;
+        }
+            #information img {
+                position: absolute;
+                left: 0;
+                height: 50px; 
+                width: 50px;
+            }
+            .phone {
+                font-size: 20pt;
+                font-weight: bolder;
+            }
+    section  {
+        margin: 10px 0px;
+    }
+        section h2 {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 12pt;
+            color: #4279a7;
+        }
+        section li {
+            margin-left: 30px;
+        }
+            #content img {
+                display: block;
+                margin: 0 auto;
+                width: 50%;
+                height: 50%;
+            }
+            #bigthree {
+                border: 5px solid #4279a7;
+                border-bottom: 0;
+                padding: 5px;
+                height: 100%;
+            }
+                #bigthree h2 {
+                    color: #4279a7;
+                    font-size: 12pt;
+                    font-weight: bold;
+                }                
+                #bigthree img {
+                    display: inline-block;
+                    width: 20%;
+                    height: auto;
+                    margin-right: 1%;
+                    vertical-align: top;
+                }
+                #bigthree aside {
+                    display: inline-block;
+                    width: 74%;
+                    vertical-align: top;
+                    font-weight: normal;
+                }
+                #bigthree a {
+                    text-decoration: none;
+                }
